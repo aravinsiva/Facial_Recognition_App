@@ -1,7 +1,5 @@
-
 var http = require('http');
 var fs = require('fs');
-
 
 http.createServer(function (req, res) {
                   
@@ -49,15 +47,20 @@ http.createServer(function (req, res) {
                                console.log('JSON Response\n');
                                console.log(jsonResponse);
                                
+                               
+                               
+                          
+                               
                                });
                   
-            
                   
                   
                   
-
+                  
+                  
                   }).listen(8080);
-                  
+
+    
                   
                   
 
